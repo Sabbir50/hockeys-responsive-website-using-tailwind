@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocky's</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Manrope", sans-serif;
+        }
+        li:hover{
+            color: #FF4240;
+        }
+    </style>
+</head>
+<body>
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl font-extrabold">Hocky<span class="text-red-500">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-5">
+             <img class="w-10" src="icon/search.svg" alt="">
+              <a class="btn bg-[#FF4240] text-white font-bold">Get Ticket</a>
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto mt-16">
+        <section class="max-md:mx-4">
+            <div class="carousel w-full lg:relative">
+                <div id="slide1" class="carousel-item relative w-full lg:justify-end lg:items-end flex-col gap-8">
+                  <img src="Images/1.png" class="w-full lg:relative"/>
+                  <div class="lg:absolute bg-black w-full lg:w-4/12 p-8 rounded-2xl mr-24 mb-16">
+                    <div class="text-white">
+                        <h1 class="text-2xl font-bold pb-4">Meet all the heroes from the field</h1>
+                        <p>The New York Islanders of the early 80s weren't the flashiest team, but they were relentless.  They won four straight Stanley Cups, known for their suffocating defense and a never-say-die attitude.  Led by the iconic captain Clark Gillies and the strong play of goalie Billy Smith, they could frustrate opponents and capitalize on any mistake.</p>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between lg:transform lg:-translate-y-1/2  max-[1023px]:-translate-y-[200px] left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-gray-300">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-gray-300">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full lg:justify-end lg:items-end flex-col gap-8">
+                  <img src="Images/01.png" class="w-full lg:relative"/>
+                  <div class="lg:absolute bg-black w-full lg:w-4/12 p-8 rounded-2xl mr-24 mb-16">
+                    <div class="text-white">
+                        <h1 class="text-2xl font-bold pb-4">The tradition started with Captain Magnus</h1>
+                        <p>The Hammer" Holmberg. A Swedish import with a nose for the net and a steely gaze, Holmberg arrived with a buzz cut that morphed into the fade over his first season. It was practicaleasy to manage under a helmet, no hair to snag on an opponent's stick.</p>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between lg:transform lg:-translate-y-1/2  max-[1023px]:-translate-y-[200px] left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-gray-300">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-gray-300 p-4">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full lg:justify-end lg:items-end flex-col gap-8">
+                  <img src="Images/02.png" class="w-full lg:relative" />
+                  <div class="lg:absolute bg-black w-full lg:w-4/12 p-8 rounded-2xl mr-24 mb-16">
+                    <div class="text-white">
+                        <h1 class="text-2xl font-bold pb-4">Dominating Force: The Montreal Canadiens (1976-1978)</h1>
+                        <p>The Montreal Canadiens of the late 70s were a juggernaut.  They won four Stanley Cups in a row, boasting an offensive powerhouse and a stifling defense. Nicknamed the "Habs Dynasty," they racked up an insane record of 83 wins in the 1976-77 season,</p>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between lg:transform lg:-translate-y-1/2  max-[1023px]:-translate-y-[200px] left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-gray-300 p-4">❮</a> 
+                    <a href="#slide4" class="btn btn-circle bg-gray-300 p-4">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full lg:justify-end lg:items-end flex-col gap-8">
+                  <img src="Images/03.png" class="w-full lg:relative" />
+                  <div class="lg:absolute bg-black w-full lg:w-4/12 p-8 rounded-2xl mr-24 mb-16">
+                    <div class="text-white">
+                        <h1 class="text-2xl font-bold pb-4">Comeback Kings: The New York Islanders (1980-1983)</h1>
+                        <p>The New York Islanders of the early 80s weren't the flashiest team, but they were relentless.  They won four straight Stanley Cups, known for their suffocating defense and a never-say-die attitude.  Led by the iconic captain Clark Gillies and the strong play of goalie Billy Smith,</p>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between lg:transform lg:-translate-y-1/2  max-[1023px]:-translate-y-[200px] left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-gray-300 p-4">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-gray-300 p-4">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class=" lg:mt-24 md:mt-5 max-md:mx-4"> 
+            <div class="border-t border-b border-dashed border-gray-400 py-[80px]">
+                <h1 class="p-5 text-center text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <div class="flex justify-center">
+                    <p class="text-center md:w-7/12">The Toronto Tornados are a whirlwind of blue and white. Known for their relentless forecheck and dazzling puck handling, they've electrified fans for decades, chasing another Lord Stanley's Cup.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 mt-16">
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-[#FF4240] font-extrabold" style="--value:70;" role="progressbar">87%</div>
+                    </div>
+                    <h1 class="text-center py-2 font-extrabold text-2xl">Prayer Facility</h1>
+                    <div class="flex justify-center">
+                        <p class="text-center">This prayer facility offers a peaceful space for reflection and spiritual connection.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-[#49D293] font-extrabold" style="--value:70;" role="progressbar">95%</div>
+                    </div>
+                    <h1 class="text-center py-2 font-extrabold text-2xl">Experienced Coach</h1>
+                    <div class="flex justify-center">
+                        <p class="text-center">With a proven track record of success, this experienced coach boasts a 95% achievement rate.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-[#FFB546] font-extrabold" style="--value:70;" role="progressbar">90%</div>
+                    </div>
+                    <h1 class="text-center py-2 font-extrabold text-2xl">Prayer
+                    </h1>
+                    <div class="flex justify-center">
+                        <p class="text-center">This senior player has a remarkable consistency, having played in a staggering 90% of their team's games. </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-[#4C8DF1] font-extrabold" style="--value:70;" role="progressbar">80%</div>
+                    </div>
+                    <h1 class="text-center py-2 font-extrabold text-2xl">Training Ground</h1>
+                    <div class="flex justify-center">
+                        <p class="text-center">This training ground boasts an impressive 80% success rate in preparing individuals for their chosen field.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-24">
+            <div class="border-t border-b border-dashed border-gray-400 py-[80px] max-md:mx-4">
+                <h1 class="p-5 text-center text-4xl font-extrabold">Program Sections</h1>
+                <div class="flex justify-center">
+                    <p class="text-center md:w-7/12">This program focuses on fundamental skating, puck handling, shooting, and game awareness for young players. It's a building block for future success.</p>
+                </div>
+            </div>
+            <div class="mt-16">
+                    <div class="flex justify-between gap-8 max-md:flex-col max-md:mx-4">
+                        <div class="flex-1 relative flex items-end max-md:items-center rounded-[18px] bg-black">
+                            <img src="Images/2.png" class="w-full relative opacity-45 max-md:h-[300px]" alt="">
+                            <div class="absolute text-white p-16 max-md:p-5">
+                                <h1 class="text-3xl font-extrabold">Junior Program</h1>
+                                <p class="mt-5">The Junior Program is the foundation of our hockey organization, fostering a love for the game in young players age range to be specified by your program.</p>
+                                <a class="btn bg-[#FF4240] text-white font-bold mt-5">Register now!</a>
+                            </div>
+                        </div>
+                        <div class="flex-1 relative flex items-end max-md:items-center rounded-[18px] bg-black">
+                            <img src="Images/3.png" class="w-full relative opacity-45 max-md:h-[300px]" alt="">
+                            <div class="absolute text-white p-16 max-md:p-5">
+                                <h1 class="text-3xl font-extrabold">Teenager Program</h1>
+                                <p class="mt-5">Teenager Program is the foundation of our hockey organization, fostering a love for the game in teenager players age range to be specified by your program.</p>
+                                <a class="btn bg-[#FF4240] text-white font-bold mt-5">Register now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex relative items-end max-md:items-center rounded-[18px] bg-black max-md:mx-4">
+                        <img class="flex-1 relative opacity-45 h-[450px]" src="Images/4.png" alt="">
+                        <div class="absolute text-white p-16 max-md:p-5">
+                            <h1 class="text-3xl font-extrabold">Professional Program</h1>
+                            <p class="mt-5">Teenager Program is the foundation of our hockey organization, fostering a love for the game in teenager players age range to be specified by your program.</p>
+                            <p>The Professional Program is the pinnacle of our organization, where aspiring elite athletes (age range to be specified) train and compete to reach the highest levels of hockey</p> 
+                            <a class="btn bg-[#FF4240] text-white font-bold mt-5">Register now!</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="mt-24 max-md:mx-4">
+            <div class="border-t border-b border-dashed border-gray-400 py-[80px]">
+                <h1 class="p-5 text-center text-4xl font-extrabold">Our New Products</h1>
+                <div class="flex justify-center">
+                    <p class="text-center md:w-7/12">Limited-edition launch! Don't miss our newest products.Shop early access! Our new arrivals are here.Unveiling something extraordinary. Shop our new arrivals! Innovation has arrived. Discover what's new.Level up your [category]! Introducing our all-new products.The [benefit] you've been waiting for. Shop our new releases.</p>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 pb-60 mt-24 gap-5">  
+
+                <!--product one-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                    <div class="">
+                        <!---reaction pannel-->
+                        <div class="flex items-center gap-5">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-8" src="icon/star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2 items-center"> 
+                                <img class="w-8" src="icon/eye (2).png" alt="">
+                                <p>200</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img class="w-8" src="icon/love.png" alt="">
+                                <p>156</p>
+                            </div>
+                        </div>
+
+                        <!-----description-->
+                        <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+
+                        <div class="flex justify-start ">
+                            <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-10" src="icon/cart.png" alt="">
+                                    <p>Delivery Fee: Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <!--product two-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                    <div class="">
+                        <!---reaction pannel-->
+                        <div class="flex items-center gap-5">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-8" src="icon/star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2 items-center"> 
+                                <img class="w-8" src="icon/eye (2).png" alt="">
+                                <p>200</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img class="w-8" src="icon/love.png" alt="">
+                                <p>156</p>
+                            </div>
+                        </div>
+
+                        <!-----description-->
+                        <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+
+                        <div class="flex justify-start ">
+                            <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-10" src="icon/cart.png" alt="">
+                                    <p>Delivery Fee: Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <!--product Three-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                        <div class="">
+                            <!---reaction pannel-->
+                            <div class="flex items-center gap-5">
+                                <div class="flex gap-2 items-center">
+                                    <img class="w-8" src="icon/star.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2 items-center"> 
+                                    <img class="w-8" src="icon/eye (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-8" src="icon/love.png" alt="">
+                                    <p>156</p>
+                                </div>
+                            </div>
+            
+                            <!-----description-->
+                            <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+            
+                            <div class="flex justify-start ">
+                                <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                    <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                        <div class="flex items-center gap-2">
+                                            <img class="w-10" src="icon/cart.png" alt="">
+                                            <p>Delivery Fee: Free</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <!--product five-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                    <div class="">
+                        <!---reaction pannel-->
+                        <div class="flex items-center gap-5">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-8" src="icon/star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2 items-center"> 
+                                <img class="w-8" src="icon/eye (2).png" alt="">
+                                <p>200</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img class="w-8" src="icon/love.png" alt="">
+                                <p>156</p>
+                            </div>
+                        </div>
+
+                        <!-----description-->
+                        <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+
+                        <div class="flex justify-start ">
+                            <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-10" src="icon/cart.png" alt="">
+                                    <p>Delivery Fee: Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+                <!--product six-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                        <div class="">
+                            <!---reaction pannel-->
+                            <div class="flex items-center gap-5">
+                                <div class="flex gap-2 items-center">
+                                    <img class="w-8" src="icon/star.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2 items-center"> 
+                                    <img class="w-8" src="icon/eye (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-8" src="icon/love.png" alt="">
+                                    <p>156</p>
+                                </div>
+                                </div>
+            
+                                <!-----description-->
+                                <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+            
+                            <div class="flex justify-start ">
+                                <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                    <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                        <div class="flex items-center gap-2">
+                                            <img class="w-10" src="icon/cart.png" alt="">
+                                            <p>Delivery Fee: Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                                           <!--product one-->
+
+                <div class="flex max-[1023px]:flex-col gap-5 border p-6 rounded-xl hover:bg-gray-50 shadow-lg">
+                    <img class="w-full flex-1" src="Images/5.png" alt="">
+                    <div class="">
+                        <!---reaction pannel-->
+                        <div class="flex items-center gap-5">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-8" src="icon/star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2 items-center"> 
+                                <img class="w-8" src="icon/eye (2).png" alt="">
+                                <p>200</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img class="w-8" src="icon/love.png" alt="">
+                                <p>156</p>
+                            </div>
+                        </div>
+
+                        <!-----description-->
+                        <h1 class="text-xl font-extrabold py-4">World Cup Flags Football</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ratione. Fugit quasi esse earum eos voluptatibus quas iste sit. Numquam.</p>
+
+                        <div class="flex justify-start ">
+                            <div class="flex max-md:flex-col  lg:gap-4 lg:items-center">
+                                <h1 class="font-bold text-xl text-[#FF4240]">Price- $22.00</h1>
+                                <div class="flex items-center gap-2">
+                                    <img class="w-10" src="icon/cart.png" alt="">
+                                    <p>Delivery Fee: Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+               
+            </div>
+
+
+        </section>
+    </main>
+</body>
+</html>
